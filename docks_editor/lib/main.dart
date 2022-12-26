@@ -1,6 +1,7 @@
-import 'package:docks_editor/screens/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+import 'package:docks_editor/screens/login_screen.dart';
 
 void main() {
   runApp(const ProviderScope(child: MyApp()));
